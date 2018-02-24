@@ -1,15 +1,15 @@
-import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
+
+import style from './nav.css'
 
 export default class Nav extends Component {
     render() {
         return (
-            <ul>
-                <li><Link to="/">首页</Link></li>
-                <li><Link to="/page1">Page1</Link></li>
-                <li><Link to="/counter">Counter</Link></li>
-                <li><Link to="/userinfo">UserInfo</Link></li>
-            </ul>
+            <div className={ style.theme_box }>
+                <div className={ style.theme_bt }><Link to="/">主题1</Link></div>
+                <div className={ style.theme_bt }><Link to="/page1">主题2</Link></div>
+            </div>
         )
     }
 }

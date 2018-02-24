@@ -1,0 +1,12 @@
+body {
+    margin: 0;
+    font-size: 0;
+}
+.preview {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 12px;
+    width: calc(50vw - 150px);
+    box-sizing: border-box;
+    padding: 20px 40px;
+}

@@ -1,0 +1,338 @@
+.preview_cont h1, 
+.preview_cont h2, 
+.preview_cont h3, 
+.preview_cont h4, 
+.preview_cont h5 {
+	font-weight: 400;
+	color: coral;
+	/* border-bottom: 2px solid #999 !important; */
+}
+
+.preview_cont h1, 
+.preview_cont h2, 
+.preview_cont h3, 
+.preview_cont h4, 
+.preview_cont h5, 
+.preview_cont p {
+	margin-bottom: 24px;
+	padding: 0;
+}
+
+.preview_cont h1 {
+	font-size: 48px;
+}
+
+.preview_cont h2 {
+	font-size: 36px;
+	margin: 24px 0 6px;
+}
+
+.preview_cont h3 {
+	font-size: 24px;
+}
+
+.preview_cont h4 {
+	font-size: 21px;
+}
+
+.preview_cont h5 {
+	font-size: 18px;
+}
+
+.preview_cont a {
+	color: #61BFC1;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	vertical-align: baseline;
+}
+
+.preview_cont a:hover {
+	text-decoration: underline;
+}
+
+.preview_cont a:visited {
+	color: #466B6C;
+}
+
+.preview_cont ul, 
+.preview_cont ol {
+	padding: 0;
+	margin: 0;
+}
+
+.preview_cont li {
+	font-family: Monaco,"STHeiti",Consolas;
+	line-height: 24px;
+}
+
+.preview_cont li ul {
+	margin-left: 24px;
+}
+
+.preview_cont p, 
+.preview_cont ul, 
+.preview_cont ol {
+	font-size: 16px;
+	line-height: 24px;
+	/*max-width: 540px;*/
+}
+
+.preview_cont pre {
+	padding: 0px 0px;
+	/*max-width: 800px;*/
+	white-space: pre-wrap;
+	background-color: DeepSkyBlue;
+}
+
+.preview_cont code {
+	font-family: Consolas, Monaco,"STHeiti", Andale Mono, monospace;
+	line-height: 1.5;
+	font-size: 13px;
+	border-radius: 2px;
+	background-color: #666;
+}
+
+.preview_cont aside {
+	display: block;
+	float: right;
+	width: 390px;
+}
+
+.preview_cont blockquote {
+	border-left: .5em solid #eee;
+	padding: 0 2em;
+	margin-left: 0;
+	/*max-width: 476px;*/
+}
+
+.preview_cont blockquote cite {
+	font-size: 14px;
+	line-height: 20px;
+	color: #bfbfbf;
+}
+
+.preview_cont blockquote cite:before {
+	content: '\2014 \00A0';
+}
+
+.preview_cont blockquote p {
+	color: #666;
+	/* max-width: 460px; */
+}
+
+.preview_cont hr {
+	width: 100%;
+	text-align: left;
+	margin: 0 auto 0 0;
+	color: #999;
+}
+
+
+/* Code added by cuiyu 2016-06-03 */
+
+.preview_cont table {
+	border-collapse: collapse;
+	border: 1px solid #cad9ea;
+	empty-cells: show;
+	/* table-layout:fixed; */
+	/* margin:0 auto; */
+}
+
+.preview_cont td, 
+.preview_cont th {
+	background-repeat: repeat-x;
+	height: 30px;
+	border: 1px solid #cad9ea;
+	padding: 0px 5px 0px 5px;
+}
+
+
+/* 首行缩进 */
+
+.preview_cont p {
+	/* text-indent:2em; */
+	white-space: pre-wrap;
+}
+
+
+/* Code below this line is copyright Twitter Inc. */
+
+.preview_cont button, 
+.preview_cont input, 
+.preview_cont select, 
+.preview_cont textarea {
+	font-size: 100%;
+	margin: 0;
+	vertical-align: baseline;
+	*vertical-align: middle;
+}
+
+.preview_cont button, 
+.preview_cont input {
+	line-height: normal;
+	*overflow: visible;
+}
+
+.preview_cont button::-moz-focus-inner, 
+.preview_cont input::-moz-focus-inner {
+	border: 0;
+	padding: 0;
+}
+
+.preview_cont button, 
+.preview_cont input[type="button"], 
+.preview_cont input[type="reset"], 
+.preview_cont input[type="submit"] {
+	cursor: pointer;
+	-webkit-appearance: button;
+}
+
+.preview_cont input[type=checkbox], 
+.preview_cont input[type=radio] {
+	cursor: pointer;
+}
+
+
+/* override default chrome & firefox settings */
+
+.preview_cont input:not([type="image"]), 
+.preview_cont textarea {
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+}
+
+.preview_cont input[type="search"] {
+	-webkit-appearance: textfield;
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+}
+
+.preview_cont input[type="search"]::-webkit-search-decoration {
+	-webkit-appearance: none;
+}
+
+.preview_cont label, 
+.preview_cont input, 
+.preview_cont select, 
+.preview_cont textarea {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 13px;
+	font-weight: normal;
+	line-height: normal;
+	margin-bottom: 18px;
+}
+
+.preview_cont input[type=checkbox], 
+.preview_cont input[type=radio] {
+	cursor: pointer;
+	margin-bottom: 0;
+}
+
+.preview_cont input[type=text], 
+.preview_cont input[type=password], 
+.preview_cont textarea, 
+.preview_cont select {
+	display: inline-block;
+	width: 210px;
+	padding: 4px;
+	font-size: 13px;
+	font-weight: normal;
+	line-height: 18px;
+	height: 18px;
+	color: #808080;
+	border: 1px solid #ccc;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.preview_cont select, 
+.preview_cont input[type=file] {
+	height: 27px;
+	line-height: 27px;
+}
+
+.preview_cont textarea {
+	height: auto;
+}
+
+
+/* grey out placeholders */
+
+.preview_cont :-moz-placeholder {
+	color: #bfbfbf;
+}
+
+.preview_cont ::-webkit-input-placeholder {
+	color: #bfbfbf;
+}
+
+.preview_cont input[type=text], 
+.preview_cont input[type=password], 
+.preview_cont select, 
+.preview_cont textarea {
+	-webkit-transition: border linear 0.2s, box-shadow linear 0.2s;
+	-moz-transition: border linear 0.2s, box-shadow linear 0.2s;
+	transition: border linear 0.2s, box-shadow linear 0.2s;
+	-webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+	box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.preview_cont input[type=text]:focus, 
+.preview_cont input[type=password]:focus, 
+.preview_cont textarea:focus {
+	outline: none;
+	border-color: rgba(82, 168, 236, 0.8);
+	-webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1), 0 0 8px rgba(82, 168, 236, 0.6);
+	-moz-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1), 0 0 8px rgba(82, 168, 236, 0.6);
+	box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1), 0 0 8px rgba(82, 168, 236, 0.6);
+}
+
+
+/* buttons */
+
+.preview_cont button {
+	display: inline-block;
+	padding: 4px 14px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 13px;
+	line-height: 18px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	-webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+	-moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+	background-color: #0064cd;
+	background-repeat: repeat-x;
+	color: #fff;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+	border: 1px solid #004b9a;
+	border-bottom-color: #003f81;
+	-webkit-transition: 0.1s linear all;
+	-moz-transition: 0.1s linear all;
+	transition: 0.1s linear all;
+	border-color: #0064cd #0064cd #003f81;
+	border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+}
+
+.preview_cont button:hover {
+	color: #fff;
+	background-position: 0 -15px;
+	text-decoration: none;
+}
+
+.preview_cont button:active {
+	-webkit-box-shadow: inset 0 3px 7px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+	-moz-box-shadow: inset 0 3px 7px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+	box-shadow: inset 0 3px 7px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.preview_cont button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}

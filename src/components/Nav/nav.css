@@ -1,0 +1,18 @@
+.theme_box {
+    width: 100%;
+    background: #e5e5e5;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.theme_bt {
+    float: right;
+    padding: 0 10px;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+}
+.theme_box a {
+    color: #000;
+    text-decoration: none;
+    font-size: 12px;
+}

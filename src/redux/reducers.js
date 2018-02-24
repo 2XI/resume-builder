@@ -1,9 +1,7 @@
-import counter from 'reducers/counter';
-import userInfo from 'reducers/userInfo';
+import input from 'reducers/input';
 
 export default function combineReducers(state = {}, action) {
     return {
-        counter: counter(state.counter, action),
-        userInfo: userInfo(state.userInfo, action)
+        input: input(state.input, action)
     }
 }

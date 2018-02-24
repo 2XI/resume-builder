@@ -1,0 +1,37 @@
+.board {
+    font-size: 0;
+    display: inline-block;
+    vertical-align: top;
+}
+.menue,
+.fragment,
+.editor {
+    display: inline-block;
+    vertical-align: top;
+    height: 100vh;
+    font-size: 14px;
+}
+.menue {
+    width: 100px;
+    background-color: #363636;
+    color: #fff;
+    text-align: center;
+}
+.fragment {
+    background-color: #f2f2f2;
+    text-align: center;
+    width: 200px;
+}
+.editor {
+    width: calc(50vw - 150px);
+    box-sizing: border-box;
+    border: 0;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    outline: none;
+    padding: 20px;
+    resize: none;
+}
+.test {
+    font-size: 14px;
+}
