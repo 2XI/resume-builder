@@ -33,6 +33,7 @@
   },
   "dependencies": {
     "axios": "^0.17.1",
+    "html2pdf.js": "^0.8.2",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-markdown": "^3.2.1",

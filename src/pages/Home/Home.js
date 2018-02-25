@@ -16,7 +16,7 @@ class Home extends Component {
     render() {
         const input = this.props.txt.input;
         return (
-            <div className={ style.preview_cont }>
+            <div id="element-to-print" className={ style.preview_cont }>
                 <ReactMarkdown source={ input } />
             </div>
         )

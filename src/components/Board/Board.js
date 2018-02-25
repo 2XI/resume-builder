@@ -3,6 +3,9 @@ import style from './board.css'
 import ReactMarkdown from 'react-markdown'
 import { connect } from 'react-redux'
 
+import Fragment from 'components/Fragment/Fragment'
+import Menue from 'components/Menue/Menue'
+
 import { getMd } from "actions/input"
 
 class Board extends Component {
@@ -22,10 +25,9 @@ class Board extends Component {
     render() {
         return (
             <div className={ style.board }>
-                <div className={ style.menue }>菜单</div>
-                <div className={ style.fragment }>内容片段</div>
+                <Menue />
+                <Fragment />
                 <textarea onChange={ this.handleChange } className={ style.editor }></textarea>
-                <div className={ style.test }><ReactMarkdown source={ this.state.input } /></div>
             </div>
         )
     }

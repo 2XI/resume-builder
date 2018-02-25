@@ -1,0 +1,32 @@
+.menue {
+    display: inline-block;
+    vertical-align: top;
+    height: 100vh;
+    font-size: 14px;
+    width: 100px;
+    background-color: #363636;
+    color: #fff;
+    text-align: center;
+}
+.log_cont {
+    display: inline-block;
+    width: 100%;
+    padding: 20px 0;
+}
+.log_cont img {
+    width: 55%;
+    border-radius: 50%;
+}
+.log_txt {
+    line-height: 1;
+    font-size: 14px;
+    color: #999;
+}
+.bt {
+    padding: 20px 0;
+    color: #999;
+}
+.bt:hover {
+    background-color: #d84146;
+    color: #fff;
+}
