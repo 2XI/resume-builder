@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { connect } from 'react-redux'
 import html2pdf from 'html2pdf.js'
 
-import { getMd } from "actions/input"
+import { setMd } from "actions/input"
 
 import style from './menue.css'
 import image from './images/avatar.png'
@@ -27,7 +27,13 @@ class Menue extends Component {
     }
     handleClickPdf() {
         let element = document.getElementById('element-to-print')
-        html2pdf(element)
+        html2pdf(element, {
+            margin: 1,
+            filename: 'resume.pdf',
+            image: { type: 'jpeg', quality: 1 },
+            html2canvas: { dpi: 192, letterRendering: true },
+            jsPDF: { unit: 'in', format: 'letter', orientation: 'portrait' }
+        })
     }
     render() {
         return (
@@ -47,4 +53,4 @@ class Menue extends Component {
     }
 }
 
-export default connect((state) => ({ txt: state.input }), { getMd })(Menue);
+export default connect((state) => ({ txt: state.input }), { setMd })(Menue);

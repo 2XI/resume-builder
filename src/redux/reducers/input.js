@@ -1,14 +1,14 @@
-import { GET_INPUT } from 'actions/input';
+import { SET_INPUT } from 'actions/input';
 
 const initState = {
     input: '',
 }
 
-export default function getMd(state = initState, action) {
+export default function setMd(state = initState, action) {
     switch (action.type) {
-        case GET_INPUT:
+        case SET_INPUT:
             return {
-                input: action.arg
+                input: state.input + '\r\n\r\n' + action.arg
             }
         default:
             return state;

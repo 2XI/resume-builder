@@ -9,4 +9,6 @@ body {
     width: calc(50vw - 150px);
     height: 100vh;
     overflow: scroll;
+    box-sizing: border-box;
+    padding: 20px 40px;
 }

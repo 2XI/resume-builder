@@ -27,6 +27,7 @@
     color: #999;
 }
 .bt:hover {
+    cursor: pointer;
     background-color: #d84146;
     color: #fff;
 }
