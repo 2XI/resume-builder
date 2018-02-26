@@ -7,7 +7,7 @@ const initState = {
     errorMsg: ''
 }
 
-export default function reducer(state = initState, action) {
+export default function fragment(state = initState, action) {
     switch (action.type) {
         case GET_FRAGMENT_REQUEST:
             return {

@@ -12,7 +12,7 @@ export default class App extends Component {
             <div>
                 <Board/>
                 <Nav/>
-                <div className={ style.preview }>
+                <div id="preview" className={ style.preview }>
                     { getRouter() }
                 </div>
             </div>

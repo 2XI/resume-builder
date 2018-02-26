@@ -46,7 +46,9 @@ class Menue extends Component {
                     <div className={ style.bt }>编辑</div>
                     <div className={ style.bt } onClick={ this.handleClickMd }>下载</div>
                     <div className={ style.bt } onClick={ this.handleClickPdf }>PDF</div>
-                    <div className={ style.bt }>教程</div>
+                    <div className={ style.bt }>
+                        <a className={ style.bt_link } href="https://guides.github.com/features/mastering-markdown/" target="_blank">教程</a>
+                    </div>
                 </div>
             </div>
         )

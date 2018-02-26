@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import style from './board.css'
 import ReactMarkdown from 'react-markdown'
 import { connect } from 'react-redux'
 
@@ -8,6 +7,10 @@ import Menue from 'components/Menue/Menue'
 
 import { setMd } from "actions/input"
 
+import dealScroll from "../../util"
+
+import style from './board.css'
+
 class Board extends Component {
     constructor() {
         super()
@@ -15,6 +18,7 @@ class Board extends Component {
     }
     handleChange(e) {
         this.props.setMd(e.target.value)
+        dealScroll()
     }
     render() {
         const input = this.props.txt.input
@@ -22,7 +26,7 @@ class Board extends Component {
             <div className={ style.board }>
                 <Menue />
                 <Fragment />
-                <textarea value={ input } onChange={ this.handleChange } className={ style.editor }></textarea>
+                <textarea id="editor" value={ input } onChange={ this.handleChange } className={ style.editor }></textarea>
             </div>
         )
     }
