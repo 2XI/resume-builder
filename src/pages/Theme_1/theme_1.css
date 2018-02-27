@@ -88,7 +88,7 @@
 .preview_cont code {
 	font-family: Consolas, Monaco,"STHeiti", Andale Mono, monospace;
 	line-height: 1.5;
-	font-size: 13px;
+	font-size: 14px;
 	border-radius: 2px;
 	background-color: #666;
 }
@@ -219,7 +219,7 @@
 .preview_cont select, 
 .preview_cont textarea {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-size: 13px;
+	font-size: 14px;
 	font-weight: normal;
 	line-height: normal;
 	margin-bottom: 18px;
@@ -238,7 +238,7 @@
 	display: inline-block;
 	width: 210px;
 	padding: 4px;
-	font-size: 13px;
+	font-size: 14px;
 	font-weight: normal;
 	line-height: 18px;
 	height: 18px;
@@ -299,7 +299,7 @@
 	display: inline-block;
 	padding: 4px 14px;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-size: 13px;
+	font-size: 14px;
 	line-height: 18px;
 	-webkit-border-radius: 4px;
 	-moz-border-radius: 4px;

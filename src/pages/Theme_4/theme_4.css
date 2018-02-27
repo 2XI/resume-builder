@@ -1,0 +1,353 @@
+/*
+This document has been created with Marked.app <http://marked2app.com>, Copyright 2013 Brett Terpstra
+Content is property of the document author
+Please leave this notice in place, along with any additional credits below.
+---------------------------------------------------------------
+Title:  Antique
+Author:  Brett Terpstra
+Description:  An "antiqued" theme with off-white background and serif typography
+*/
+.preview_cont {
+    font-family: Palatino, Georgia, "Times New Roman", serif;
+    font-weight: normal;
+    font-size: 0.8764em;
+    line-height: 1.5em;
+    margin: 0;
+    font-size: 14px; 
+}
+.preview_cont p {
+    margin: 1.3125em 0;
+    font-size: 1.1429em;
+    line-height: 1.6125em; 
+}
+.preview_cont ul {
+    list-style: square; 
+}
+.preview_cont ol {
+    list-style: decimal;
+}
+.preview_cont ul, .preview_cont ol {
+    padding-left: 0;
+    list-style-position: outside; 
+}
+.preview_cont ul li, .preview_cont ol li {
+    font-size: 110%;
+    line-height: 1.525em; 
+}
+.preview_cont ul li li, .preview_cont ol li li {
+    font-size: 100%; 
+}
+.preview_cont ul li p, .preview_cont ol li p {
+    font-size: 100%;
+    margin-left: 1em; 
+}
+.preview_cont ul ul, .preview_cont ul ol, .preview_cont ol ul, .preview_cont ol ol {
+    margin-bottom: .4em;
+    padding-left: 30px; 
+}
+.preview_cont ul ul, .preview_cont ol ul {
+    list-style: circle; 
+}
+.preview_cont strong {
+    font-weight: bold; 
+}
+.preview_cont em {
+    font-style: italic; 
+}
+.preview_cont h1 {
+    margin: 0.6563em 0;
+    font-size: 2.8em;
+    line-height: 1.6563em; 
+}
+.preview_cont h2 {
+    margin: 0.875em 0;
+    font-size: 1.7143em;
+    line-height: 0.875em; 
+}
+.preview_cont h3 {
+    margin: 1em 0;
+    font-size: 1.5em;
+    line-height: 1em; 
+}
+.preview_cont h4 {
+    margin: 1.1667em 0;
+    font-size: 1.2857em;
+    line-height: 1.1667em; 
+}
+.preview_cont h5 {
+    margin: 1.3125em 0;
+    font-size: 1.1429em;
+    line-height: 1.3125em; 
+}
+.preview_cont h6 {
+    margin: 1.5em 0;
+    font-size: 1em;
+    line-height: 1.5em; 
+}
+.preview_cont h1, .preview_cont h2, .preview_cont h3, .preview_cont h4, .preview_cont h5, .preview_cont h6 {
+    font-weight: bold; 
+}
+.preview_cont h1 a, .preview_cont h2 a, .preview_cont h3 a, .preview_cont h4 a, .preview_cont h5 a, .preview_cont h6 a {
+    color: #514d3f;
+    border-bottom: dotted 1px #a7a099; 
+}
+.preview_cont h1 a:hover, .preview_cont h2 a:hover, .preview_cont h3 a:hover, .preview_cont h4 a:hover, .preview_cont h5 a:hover, .preview_cont h6 a:hover {
+    color: #13120f; 
+}
+.preview_cont h1, .preview_cont h2 {
+    padding-bottom: .4em;
+    padding-top: .25em;
+    font-family: "Hoefler Text", Georgia, serif;
+    line-height: 1.5em;
+    color: #514d3f;
+    text-shadow: 1px 0px 0px #a7a099, 0 1px 0 white; 
+}
+.preview_cont h1 {
+    text-align: center; 
+}
+.preview_cont h1:before {
+    content: "\0360";
+    position: relative;
+    left: -30px;
+    top: .4em;
+    color: #837e70;
+    text-shadow: 1px 0px 0px #a7a099, 0 1px 0 white;
+}
+.preview_cont h1:after {
+    content: "\0360";
+    position: relative;
+    right: -30px;
+    top: .4em;
+    color: #837e70;
+    text-shadow: 1px 0px 0px #a7a099, 0 1px 0 white; 
+}
+.preview_cont h2 {
+    box-shadow: 0 -1px 0 white, 0 -2px 0 #837e70;
+    margin-top: 1em;
+    padding-bottom: 0; 
+}
+.preview_cont, .preview_cont p, .preview_cont td, .preview_cont div {
+    color: #45462f;
+    word-wrap: break-word;
+    -webkit-font-smoothing: antialiased; 
+}
+.preview_cont a {
+    color: #00857a;
+    text-decoration: none;
+    -webkit-transition: color 0.1s ease-in-out;
+    -moz-transition: color 0.1s ease-in-out;
+    -o-transition: color 0.1s ease-in-out;
+    -ms-transition: color 0.1s ease-in-out;
+    transition: color 0.1s ease-in-out;
+}
+.preview_cont a:hover {
+    color: #35b8ad; 
+}
+.preview_cont strong {
+    font-weight: 600;
+    color: #605b4b;
+}
+.preview_cont .footnote {
+    font-size: .8em;
+    vertical-align: super;
+    color: #0d6ea1;
+}
+.preview_cont img {
+    max-width: 100%;
+    height: auto;
+    border: solid 2px rgba(56, 40, 18, 0.25); 
+}
+.preview_cont dt {
+    font-weight: bold; 
+}
+.preview_cont dd {
+    margin-bottom: 1em;
+    text-indent: 1em; 
+}
+.preview_cont blockquote {
+    margin: 14px 40px; 
+}
+.preview_cont code {
+    font-family: courier, monospace;
+    background: #f2ede8;
+    border: solid 1px #a7a099;
+    font-size: .95em; 
+}
+.preview_cont pre {
+    background: #f2ede8;
+    padding: 4px; 
+}
+.preview_cont pre code {
+    font-size: 1em;
+    margin: 0;
+    padding: 4px;
+    border: none;
+    background: none; 
+}
+.preview_cont hr {
+    border-color: #f2ede8;
+    height: 0;
+    background-color: #a7a099;
+}
+  
+@media print {
+  
+    img, pre, blockquote, table, figure {
+        page-break-inside: avoid;
+    }
+  
+    .preview_cont {
+        background: #fff;
+        position: relative;
+        color: #000;
+        text-indent: 0px;
+        padding: 1in;
+        font-size: 85%;
+    }
+    @media screen {
+
+      .preview_cont {
+          color: #514d3f;
+          overflow: auto;
+          text-indent: 0px;
+          padding: 25px;
+      }
+      .preview_cont ::selection {
+          background: rgba(157, 193, 200, 0.5);
+      }
+      .preview_cont h1::selection, .preview_cont h2::selection, .preview_cont h3::selection, .preview_cont h4::selection, .preview_cont h5::selection, .preview_cont h6::selection {
+          background-color: rgba(133, 201, 232, 0.3);
+      }
+      .preview_cont code::selection {
+          background-color: rgba(0, 0, 0, 0.7);
+          color: #eee;
+      }
+      .preview_cont code span::selection {
+          background-color: rgba(0, 0, 0, 0.7) !important;
+          color: #eee !important;
+      }
+      .preview_cont a::selection {
+          background-color: rgba(255, 230, 102, 0.2);
+      }
+      .preview_cont td::selection, .preview_cont th::selection, .preview_cont caption::selection {
+          background-color: rgba(180, 237, 95, 0.5);
+      }
+  
+      .preview_cont {
+          background: #39362f;
+      }
+      .preview_cont a::selection {
+          background-color: rgba(255, 230, 102, 0.6);
+      }
+      .preview_cont p, .preview_cont td, .preview_cont li, .preview_cont h1, .preview_cont h2, .preview_cont h3, .preview_cont h4, .preview_cont h5, .preview_cont h6, .preview_cont pre, .preview_cont code, .preview_cont th, .preview_cont hr, .preview_cont strong, .preview_cont em, .preview_cont .math, .preview_cont dd, .preview_cont dt {
+          color: #f0ede3;
+          border-color: #423d2f;
+          background: #39362f;
+      }
+      .preview_cont hr {
+          border-color: rgba(52, 52, 52, 0.3);
+      }
+      .preview_cont a {
+          color: #fff;
+          text-decoration: underline;
+          border-bottom: none;
+      }
+      .preview_cont .popup li, .preview_cont .popup ul, .preview_cont .popup strong {
+          background: none;
+      } 
+    }
+  .preview_cont li > p:first-child {
+    margin: 0; }
+  .preview_cont li p {
+    margin: .5em 0; }
+  .preview_cont caption, .preview_cont col, .preview_cont colgroup, .preview_cont table, .preview_cont tbody, .preview_cont td, .preview_cont tfoot, .preview_cont th, .preview_cont thead, .preview_cont tr {
+    border-spacing: 0; }
+  .preview_cont caption {
+    display: table-caption;
+    font-weight: bold; }
+  .preview_cont col {
+    display: table-column; }
+  .preview_cont colgroup {
+    display: table-column-group; }
+  .preview_cont tbody {
+    display: table-row-group; }
+  .preview_cont tfoot {
+    display: table-footer-group; }
+  .preview_cont thead {
+    display: table-header-group; }
+  .preview_cont td, .preview_cont th {
+    display: table-cell; }
+  .preview_cont th {
+    font-weight: bold; }
+  .preview_cont tr {
+    display: table-row; }
+  .preview_cont table {
+    display: table;
+    table-layout: fixed;
+    border-collapse: collapse;
+    empty-cells: hide;
+    margin: 0 0 24px 0;
+    padding: 0;
+    border: 0;
+    margin-top: -1px;
+    margin-bottom: 23px;
+    border: 1px solid rgba(124, 119, 112, 0.5); }
+    .preview_cont table th, .preview_cont table td {
+      padding: 0 1em;
+      font-size: 1.1em;
+      line-height: 23px; }
+    .preview_cont table tbody {
+      background-color: rgba(124, 119, 112, 0.05); }
+    .preview_cont table thead, .preview_cont table tfoot {
+      background-color: rgba(124, 119, 112, 0.15); }
+    .preview_cont table tr:nth-child(odd) {
+      background-color: rgba(227, 217, 205, 0.06); }
+    .preview_cont table tr:nth-child(even),
+    .preview_cont table td:nth-child(even) {
+      background-color: rgba(124, 119, 112, 0.06); }
+    .preview_cont table thead,
+    .preview_cont table tfoot {
+      border: 1px solid rgba(124, 119, 112, 0.5);
+      border-bottom: 1px solid rgba(124, 119, 112, 0.2); }
+    .preview_cont table thead tr th:last-child {
+      border-right: 1px solid rgba(124, 119, 112, 0.5); }
+  .preview_cont figure {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 2em; }
+    .preview_cont figure:hover {
+      cursor: pointer; }
+  .preview_cont figcaption {
+    text-align: center;
+    position: absolute;
+    background: transparent;
+    width: 100%;
+    left: 0;
+    bottom: -20px;
+    color: #a7a099; }
+  .preview_cont pre {
+    font-family: Georgia, Garamond, serif !important;
+    font-style: italic;
+    font-size: 110% !important;
+    line-height: 1.6em;
+    display: block;
+    margin-left: 1em; }
+    .preview_cont pre code {
+      font-family: Georgia, Garamond, serif !important;
+      word-break: break-all;
+      word-break: break-word;
+      Non standard for webkit
+      -webkit-hyphens: auto;
+      -moz-hyphens: auto;
+      hyphens: auto;
+      white-space: pre-wrap; }
+  .preview_cont sup, .preview_cont sub, .preview_cont a.footnote {
+    font-size: 1.4ex;
+    height: 0;
+    line-height: 1;
+    vertical-align: super;
+    position: relative; }
+  .preview_cont sub {
+    vertical-align: sub;
+    top: -1px; } 
+}
