@@ -10,7 +10,6 @@ import style from './fragment.css'
 class Menue extends Component {
     constructor() {
         super()
-        this.handleFragment = this.handleFragment.bind(this)
     }
     handleFragment(target) {
         this.props.getFragment().then(
@@ -26,7 +25,7 @@ class Menue extends Component {
         return (
             <div className={ style.fragment }>
                 <div className={ style.editor }>Markdown</div>
-                <div className={ style.list_title }>内容片段</div>
+                <div onClick={ this.test } className={ style.list_title }>内容片段</div>
                 <ul className={ style.list }>
                     <li className={ style.list_item } onClick={ this.handleFragment.bind(this, 'contact') }>联系方式</li>
                     <li className={ style.list_item } onClick={ this.handleFragment.bind(this, 'person_message') }>个人信息</li>

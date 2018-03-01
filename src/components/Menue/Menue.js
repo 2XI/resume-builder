@@ -10,7 +10,7 @@ import image from './images/avatar.png'
 class Menue extends Component {
     constructor() {
         super()
-        this.handleClickMd = this.handleClickMd.bind(this)
+        // this.handleClickMd = this.handleClickMd.bind(this)
         this.handleClickPdf = this.handleClickPdf.bind(this)
     }
     createAndDownloadFile(content) {
@@ -22,6 +22,7 @@ class Menue extends Component {
         URL.revokeObjectURL(blob)
     }
     handleClickMd() {
+        console.log(this)
         const input = this.props.txt.input
         this.createAndDownloadFile(input)
     }

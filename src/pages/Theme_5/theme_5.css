@@ -64,29 +64,29 @@ Description:  Courier, Double-spaced, paragraph indent. Use `###### #` to create
     .preview_cont ol ul, .preview_cont ol ol {
       margin-bottom: .4em; }
   
-  h1, h2, h3, h4, h5, h6 {
-    margin: 3em 0 1em 0;
+      .preview_cont h1, .preview_cont h2, .preview_cont h3, .preview_cont h4, .preview_cont h5, .preview_cont h6 {
+    margin: 2em 0 1em 0;
     font-size: 1.5em; }
   
-  h1, h2 {
+    .preview_cont h1, .preview_cont h2 {
     text-align: center; }
   
-  hr {
+    .preview_cont hr {
     border: none;
     margin-top: 3em; }
   
-  p, td, div {
+    .preview_cont p, .preview_cont td, .preview_cont div {
     color: #111111;
     font-family: "CourierPrime", courier, monospace;
     word-wrap: break-word; }
   
-  h1, h2, h3, h4, h5, h6 {
+    .preview_cont h1, .preview_cont h2, .preview_cont h3, .preview_cont h4, .preview_cont h5, .preview_cont h6 {
     color: #111111;
     font-family: "CourierPrimeBold", courier, monospace;
     line-height: 1.5em;
     font-weight: normal; }
   
-  a {
+    .preview_cont a {
     color: #3c779c;
     text-decoration: none;
     -webkit-transition: color 0.2s ease-in-out;
@@ -94,32 +94,27 @@ Description:  Courier, Double-spaced, paragraph indent. Use `###### #` to create
     -o-transition: color 0.2s ease-in-out;
     -ms-transition: color 0.2s ease-in-out;
     transition: color 0.2s ease-in-out; }
-    a:hover {
+    .preview_cont a:hover {
       color: #3593d9; }
   
-  strong {
+      .preview_cont strong {
     font-family: "CourierPrimeBold", courier, monospace; }
   
-  em {
+    .preview_cont em {
     font-family: "CourierPrimeItalic", courier, monospace !important; }
   
-  strong em, em strong {
+    .preview_cont strong em, .preview_cont em strong {
     font-family: "CourierPrimeBoldItalic", courier, monospace !important;
     font-weight: 700;
     font-style: italic; }
-  
-  .footnote {
-    color: #3c779c;
-    font-size: 1em;
-    vertical-align: super; }
-  
-  dd {
+
+  .preview_cont dd {
     margin-bottom: 1em; }
   
-  caption, col, colgroup, table, tbody, td, tfoot, th, thead, tr {
+    .preview_cont caption, .preview_cont col, .preview_cont colgroup, .preview_cont table, .preview_cont tbody, .preview_cont td, .preview_cont tfoot, .preview_cont th, .preview_cont thead, .preview_cont tr {
     border-spacing: 0; }
   
-  table {
+    .preview_cont table {
     border: 1px solid rgba(0, 0, 0, 0.25);
     border-collapse: collapse;
     display: table;
@@ -128,53 +123,53 @@ Description:  Courier, Double-spaced, paragraph indent. Use `###### #` to create
     padding: 0;
     table-layout: fixed; }
   
-  caption {
+    .preview_cont caption {
     display: table-caption;
     font-family: "CourierPrimeBold", courier, monospace; }
   
-  col {
+    .preview_cont col {
     display: table-column; }
   
-  colgroup {
+    .preview_cont colgroup {
     display: table-column-group; }
   
-  tbody {
+    .preview_cont tbody {
     display: table-row-group; }
   
-  tfoot {
+    .preview_cont tfoot {
     display: table-footer-group; }
   
-  thead {
+    .preview_cont thead {
     display: table-header-group; }
   
-  td, th {
+    .preview_cont td, .preview_cont th {
     display: table-cell; }
   
-  tr {
+    .preview_cont tr {
     display: table-row; }
   
-  table th, table td {
+    .preview_cont table th, .preview_cont table td {
     padding: 0 1em; }
   
-  table thead {
+    .preview_cont table thead {
     background: rgba(0, 0, 0, 0.15);
     border: 1px solid rgba(0, 0, 0, 0.15);
     border-bottom: 1px solid rgba(0, 0, 0, 0.2); }
   
-  table tbody {
+    .preview_cont table tbody {
     background: rgba(0, 0, 0, 0.05); }
   
-  table tfoot {
+    .preview_cont table tfoot {
     background: rgba(0, 0, 0, 0.15);
     border: 1px solid rgba(0, 0, 0, 0.15);
     border-top: 1px solid rgba(0, 0, 0, 0.2); }
   
-  figure {
+    .preview_cont figure {
     display: inline-block;
     position: relative;
     margin: 1em 0 2em; }
   
-  figcaption {
+    .preview_cont figcaption {
     font-family: "CourierPrimeItalic", courier, monospace !important;
     text-align: center;
     background: white;
@@ -190,58 +185,44 @@ Description:  Courier, Double-spaced, paragraph indent. Use `###### #` to create
     -ms-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out; }
   
-  figure:hover > figcaption {
+    .preview_cont figure:hover > figcaption {
     background: rgba(0,0,0,1) }
   
-  .poetry pre {
-    display: block;
-    font-family: "CourierPrimeItalic", courier, monospace !important;
-    margin-left: 1em; }
-    .poetry pre code {
-      font-family: "CourierPrime", courier, monospace;
-      word-break: break-all;
-      word-break: break-word;
-      /* Non standard for webkit */
-      -webkit-hyphens: auto;
-      -moz-hyphens: auto;
-      hyphens: auto;
-      white-space: pre-wrap; }
-  
-  blockquote p {
+    .preview_cont blockquote p {
     font-family: "CourierPrimeItalic", courier, monospace !important;
     text-indent: 0;
     font-style: italic; }
   
-  blockquote + p {
+    .preview_cont blockquote + p {
     margin: 0;
     text-indent: 0; }
   
-  sup, sub, a.footnote {
+    .preview_cont sup, .preview_cont sub {
     font-size: 1em;
     height: 0;
     line-height: 1;
     position: relative;
     vertical-align: super; }
   
-  sub {
+    .preview_cont sub {
     vertical-align: sub;
     top: -1px; }
   
-  p, h5 {
+    .preview_cont p, .preview_cont h5 {
     margin: 1.3125em 0; }
   
-  dt, th {
+    .preview_cont dt, .preview_cont th {
     font-family: CourierPrimeBold; }
   
-  table tr:nth-child(odd), table th:nth-child(odd), table td:nth-child(odd) {
+    .preview_cont table tr:nth-child(odd), .preview_cont table th:nth-child(odd), .preview_cont table td:nth-child(odd) {
     background: rgba(255, 255, 255, 0.06); }
   
-  table tr:nth-child(even), table td:nth-child(even) {
+    .preview_cont table tr:nth-child(even), .preview_cont table td:nth-child(even) {
     background: rgba(200, 200, 200, 0.25); }
   
   @media print {
   
-    img, pre, blockquote, table, figure, p {
+    .preview_cont img, .preview_cont pre, .preview_cont blockquote, .preview_cont table, .preview_cont figure, .preview_cont p {
       page-break-inside: auto; }
   
     .preview_cont {
@@ -249,15 +230,15 @@ Description:  Courier, Double-spaced, paragraph indent. Use `###### #` to create
       color: #000;
       position: relative; } }
   @media screen {
-      hr {
+    .preview_cont hr {
         border-color: #333f40 !important; }
-      table {
+        .preview_cont table {
         background: none; }
-        table tr:nth-child(odd), table td:nth-child(odd) {
+        .preview_cont table tr:nth-child(odd), .preview_cont table td:nth-child(odd) {
           background: none; }
-      a {
+          .preview_cont a {
         color: #acd1d5; }
   
-    ::selection {
+        .preview_cont ::selection {
       background: rgba(157, 193, 200, 0.5); } }
   
