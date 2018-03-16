@@ -7,11 +7,14 @@ import Menue from 'components/Menue/Menue'
 
 import { setMd } from "actions/input"
 
-import dealScroll from "../../util"
+import { dealScroll, forbidenCTRL_S } from "../../util"
 
 import style from './board.css'
 
 class Board extends Component {
+    componentDidMount() {
+        forbidenCTRL_S()
+    }
     constructor() {
         super()
         this.handleChange = this.handleChange.bind(this)

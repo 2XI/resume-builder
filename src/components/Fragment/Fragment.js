@@ -3,7 +3,7 @@ import { connect } from 'react-redux'
 import { getFragment } from "actions/fragment"
 import { setMd } from "actions/input"
 
-import dealScroll from "../../util"
+import { dealScroll } from "../../util"
 
 import style from './fragment.css'
 

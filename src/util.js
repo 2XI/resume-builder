@@ -14,6 +14,19 @@ const handleScroll = () => {
     editor.scrollTo(0, editor.scrollHeight - editor.clientHeight)
     preview.scrollTo(0, preview.scrollHeight - preview.clientHeight)
 }
-export default function dealScroll(){
+
+const dealScroll = () => {
     throttle(handleScroll,1000)()
+}
+
+const forbidenCTRL_S = () => {
+    document.onkeydown = function (event) {   
+        if((event.metaKey && event.keyCode == '83') || (event.ctrlKey && event.keyCode == '83')) {
+            event.preventDefault()
+        }
+    }
+}
+export {
+    dealScroll,
+    forbidenCTRL_S
 }

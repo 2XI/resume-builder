@@ -8,9 +8,6 @@ const input = '# This is a header\n\nAnd this is a paragraph'
 
 
 class Theme_1 extends Component {
-    componentDidMount() {
-        
-    }
     constructor() {
         super()
     }
