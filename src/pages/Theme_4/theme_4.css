@@ -13,86 +13,86 @@ Description:  An "antiqued" theme with off-white background and serif typography
     font-size: 0.8764em;
     line-height: 1.5em;
     margin: 0;
-    font-size: 14px; 
+    font-size: 14px;
 }
 .preview_cont p {
     margin: 1.3125em 0;
     font-size: 1.1429em;
-    line-height: 1.6125em; 
+    line-height: 1.6125em;
 }
 .preview_cont ul {
-    list-style: square; 
+    list-style: square;
 }
 .preview_cont ol {
     list-style: decimal;
 }
 .preview_cont ul, .preview_cont ol {
     padding-left: 0;
-    list-style-position: outside; 
+    list-style-position: outside;
 }
 .preview_cont ul li, .preview_cont ol li {
     font-size: 110%;
-    line-height: 1.525em; 
+    line-height: 1.525em;
 }
 .preview_cont ul li li, .preview_cont ol li li {
-    font-size: 100%; 
+    font-size: 100%;
 }
 .preview_cont ul li p, .preview_cont ol li p {
     font-size: 100%;
-    margin-left: 1em; 
+    margin-left: 1em;
 }
 .preview_cont ul ul, .preview_cont ul ol, .preview_cont ol ul, .preview_cont ol ol {
     margin-bottom: .4em;
-    padding-left: 30px; 
+    padding-left: 30px;
 }
 .preview_cont ul ul, .preview_cont ol ul {
-    list-style: circle; 
+    list-style: circle;
 }
 .preview_cont strong {
-    font-weight: bold; 
+    font-weight: bold;
 }
 .preview_cont em {
-    font-style: italic; 
+    font-style: italic;
 }
 .preview_cont h1 {
     margin: 0.6563em 0;
     font-size: 2.8em;
-    line-height: 1.6563em; 
+    line-height: 1.6563em;
 }
 .preview_cont h2 {
     margin: 0.875em 0;
     font-size: 1.7143em;
-    line-height: 0.875em; 
+    line-height: 0.875em;
 }
 .preview_cont h3 {
     margin: 1em 0;
     font-size: 1.5em;
-    line-height: 1em; 
+    line-height: 1em;
 }
 .preview_cont h4 {
     margin: 1.1667em 0;
     font-size: 1.2857em;
-    line-height: 1.1667em; 
+    line-height: 1.1667em;
 }
 .preview_cont h5 {
     margin: 1.3125em 0;
     font-size: 1.1429em;
-    line-height: 1.3125em; 
+    line-height: 1.3125em;
 }
 .preview_cont h6 {
     margin: 1.5em 0;
     font-size: 1em;
-    line-height: 1.5em; 
+    line-height: 1.5em;
 }
 .preview_cont h1, .preview_cont h2, .preview_cont h3, .preview_cont h4, .preview_cont h5, .preview_cont h6 {
-    font-weight: bold; 
+    font-weight: bold;
 }
 .preview_cont h1 a, .preview_cont h2 a, .preview_cont h3 a, .preview_cont h4 a, .preview_cont h5 a, .preview_cont h6 a {
     color: #514d3f;
-    border-bottom: dotted 1px #a7a099; 
+    border-bottom: dotted 1px #a7a099;
 }
 .preview_cont h1 a:hover, .preview_cont h2 a:hover, .preview_cont h3 a:hover, .preview_cont h4 a:hover, .preview_cont h5 a:hover, .preview_cont h6 a:hover {
-    color: #13120f; 
+    color: #13120f;
 }
 .preview_cont h1, .preview_cont h2 {
     padding-bottom: .4em;
@@ -100,10 +100,10 @@ Description:  An "antiqued" theme with off-white background and serif typography
     font-family: "Hoefler Text", Georgia, serif;
     line-height: 1.5em;
     color: #514d3f;
-    text-shadow: 1px 0px 0px #a7a099, 0 1px 0 white; 
+    text-shadow: 1px 0px 0px #a7a099, 0 1px 0 white;
 }
 .preview_cont h1 {
-    text-align: center; 
+    text-align: center;
 }
 .preview_cont h1:before {
     content: "\0360";
@@ -119,17 +119,17 @@ Description:  An "antiqued" theme with off-white background and serif typography
     right: -30px;
     top: .4em;
     color: #837e70;
-    text-shadow: 1px 0px 0px #a7a099, 0 1px 0 white; 
+    text-shadow: 1px 0px 0px #a7a099, 0 1px 0 white;
 }
 .preview_cont h2 {
     box-shadow: 0 -1px 0 white, 0 -2px 0 #837e70;
     margin-top: 1em;
-    padding-bottom: 0; 
+    padding-bottom: 0;
 }
 .preview_cont, .preview_cont p, .preview_cont td, .preview_cont div {
     color: #45462f;
     word-wrap: break-word;
-    -webkit-font-smoothing: antialiased; 
+    -webkit-font-smoothing: antialiased;
 }
 .preview_cont a {
     color: #00857a;
@@ -141,7 +141,7 @@ Description:  An "antiqued" theme with off-white background and serif typography
     transition: color 0.1s ease-in-out;
 }
 .preview_cont a:hover {
-    color: #35b8ad; 
+    color: #35b8ad;
 }
 .preview_cont strong {
     font-weight: 600;
@@ -155,47 +155,47 @@ Description:  An "antiqued" theme with off-white background and serif typography
 .preview_cont img {
     max-width: 100%;
     height: auto;
-    border: solid 2px rgba(56, 40, 18, 0.25); 
+    border: solid 2px rgba(56, 40, 18, 0.25);
 }
 .preview_cont dt {
-    font-weight: bold; 
+    font-weight: bold;
 }
 .preview_cont dd {
     margin-bottom: 1em;
-    text-indent: 1em; 
+    text-indent: 1em;
 }
 .preview_cont blockquote {
-    margin: 14px 40px; 
+    margin: 14px 40px;
 }
 .preview_cont code {
     font-family: courier, monospace;
     background: #f2ede8;
     border: solid 1px #a7a099;
-    font-size: .95em; 
+    font-size: .95em;
 }
 .preview_cont pre {
     background: #f2ede8;
-    padding: 4px; 
+    padding: 4px;
 }
 .preview_cont pre code {
     font-size: 1em;
     margin: 0;
     padding: 4px;
     border: none;
-    background: none; 
+    background: none;
 }
 .preview_cont hr {
     border-color: #f2ede8;
     height: 0;
     background-color: #a7a099;
 }
-  
+
 @media print {
-  
+
     img, pre, blockquote, table, figure {
         page-break-inside: avoid;
     }
-  
+
     .preview_cont {
         background: #fff;
         position: relative;
@@ -232,7 +232,7 @@ Description:  An "antiqued" theme with off-white background and serif typography
       .preview_cont td::selection, .preview_cont th::selection, .preview_cont caption::selection {
           background-color: rgba(180, 237, 95, 0.5);
       }
-  
+
       .preview_cont {
           background: #39362f;
       }
@@ -254,7 +254,7 @@ Description:  An "antiqued" theme with off-white background and serif typography
       }
       .preview_cont .popup li, .preview_cont .popup ul, .preview_cont .popup strong {
           background: none;
-      } 
+      }
     }
   .preview_cont li > p:first-child {
     margin: 0; }
@@ -336,7 +336,6 @@ Description:  An "antiqued" theme with off-white background and serif typography
       font-family: Georgia, Garamond, serif !important;
       word-break: break-all;
       word-break: break-word;
-      Non standard for webkit
       -webkit-hyphens: auto;
       -moz-hyphens: auto;
       hyphens: auto;
@@ -349,5 +348,5 @@ Description:  An "antiqued" theme with off-white background and serif typography
     position: relative; }
   .preview_cont sub {
     vertical-align: sub;
-    top: -1px; } 
+    top: -1px; }
 }
